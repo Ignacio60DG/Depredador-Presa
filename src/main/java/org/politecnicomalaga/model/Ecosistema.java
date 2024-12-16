@@ -1,7 +1,7 @@
 package org.politecnicomalaga.model;
 
 public class Ecosistema {
-    private float anioInicial;
+    private int anioInicial;
     private float depredadorValorAnioInicial;
     private float presaAnioValorInicial;
     private float natalidadDepredador;
@@ -17,7 +17,7 @@ public class Ecosistema {
     private float anioCalculoPresa;
 
     public Ecosistema(
-            float anioInicial,
+            int anioInicial,
             float depredadorValorAnioInicial,
             float presaValorAnioInicial,
             float natalidadDepredador,

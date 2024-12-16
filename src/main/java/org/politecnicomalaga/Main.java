@@ -21,8 +21,8 @@ public class Main {
                 5000
         );
         Scanner sc = new Scanner(System.in);
-        int anioCalculo = sc.nextInt();
         System.out.println("Introduzca el año");
+        int anioCalculo = sc.nextInt();
         ecosistema.setAnioCalculo(anioCalculo);//2160
         System.out.println("Depredador "+ecosistema.getAnioCalculoDepredador());
         System.out.println("Presa "+ecosistema.getAnioCalculoPresa());
